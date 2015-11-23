@@ -38,8 +38,8 @@ Linux::TempFile - Creates a temporary file using O_TMPFILE
 
 =head1 SYNOPSIS
 
-    use Linux::Tempfile;
-    my $file = Linux::Tempfile->new;
+    use Linux::TempFile;
+    my $file = Linux::TempFile->new;
     # do something with $file (eg: print, chmod)
     $file->link('/path/to/file');
 
