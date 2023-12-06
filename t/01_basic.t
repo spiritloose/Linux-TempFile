@@ -8,6 +8,7 @@ use File::Temp qw(tempdir);
 my $tmpfile = Linux::TempFile->new;
 isa_ok $tmpfile, 'Linux::TempFile';
 isa_ok $tmpfile, 'IO::Handle';
+isa_ok $tmpfile, 'IO::File';
 
 syswrite $tmpfile, "Hello\n";
 
