@@ -2,7 +2,7 @@ package Linux::TempFile;
 use 5.008001;
 use strict;
 use warnings;
-use base 'IO::Handle';
+use base 'IO::File';
 
 our $VERSION = "0.02";
 
